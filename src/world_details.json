@@ -1,0 +1,688 @@
+{
+  "world_name": "",
+  "species": [
+    {
+      "name": "",
+      "description": "",
+      "classification": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      },
+      "appearance": {
+        "height": "",
+        "weight": "",
+        "skin_color": "",
+        "hair_color": "",
+        "eye_color": "",
+        "images": [{"link": ""}]
+      },
+      "physiology": {
+        "lifespan": "",
+        "senses": [],
+        "diet": "",
+        "reproduction": ""
+      },
+      "intelligence": {
+        "language": [],
+        "culture": {
+          "name": "",
+          "history": "",
+          "customs": [],
+          "beliefs": [],
+          "values": [],
+          "references": [{"name": "", "link": ""}]
+        },
+        "technology": {
+          "level": "",
+          "inventions": [],
+          "references": [{"name": "", "link": ""}]
+        },
+        "society": {
+          "government": {
+            "type": "",
+            "structure": "",
+            "leaders": []
+          },
+          "economy": {
+            "type": "",
+            "industries": []
+          },
+          "population": "",
+          "cities": [
+            {
+              "name": "",
+              "population": "",
+              "location": ""
+            }
+          ],
+          "references": [{"name": "", "link": ""}]
+        }
+      },
+      "habitat": {
+        "name": "",
+        "description": "",
+        "location": "",
+        "climate": "",
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      },
+      "relationships": {
+        "allies": [],
+        "enemies": [],
+        "trade": {
+          "partners": [],
+          "goods_exported": [],
+          "goods_imported": []
+        }
+      },
+      "references": [{"name": "", "link": ""}]
+    }
+  ],
+  "geography": {
+    "continents": [
+      {
+        "name": "",
+        "landmass_type": "",
+        "climate": "",
+        "terrain": "",
+        "elevation": ""
+      }
+    ],
+    "oceans": [
+      {
+        "name": "",
+        "size": "",
+        "depth": "",
+        "currents": ""
+      }
+    ],
+    "rivers": [
+      {
+        "name": "",
+        "source": "",
+        "length": "",
+        "width": ""
+      }
+    ],
+    "mountains": [
+      {
+        "name": "",
+        "height": "",
+        "range": "",
+        "type": ""
+      }
+    ],
+    "islands": [
+      {
+        "name": "",
+        "size": "",
+        "location": "",
+        "climate": ""
+      }
+    ],
+    "deserts": [
+      {
+        "name": "",
+        "size": "",
+        "location": "",
+        "climate": ""
+      }
+    ],
+    "forests": [
+      {
+        "name": "",
+        "size": "",
+        "location": "",
+        "climate": ""
+      }
+    ],
+    "other_features": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ]
+  },
+  "societies": [
+    {
+      "name": "",
+      "location": "",
+      "government": {
+        "type": "",
+        "structure": "",
+        "leaders": [
+          {
+            "name": "",
+            "title": "",
+            "description": ""
+          }
+        ],
+        "laws": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      "religion": {
+        "name": "",
+        "beliefs": "",
+        "holy_texts": "",
+        "places_of_worship": "",
+        "leaders": [
+          {
+            "name": "",
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      "culture": {
+        "name": "",
+        "language": "",
+        "customs": "",
+        "traditions": "",
+        "art": "",
+        "architecture": "",
+        "music": "",
+        "food": ""
+      },
+      "population": {
+        "total": "",
+        "demographics": {
+          "gender": "",
+          "age": "",
+          "race": ""
+        },
+        "cities": [
+          {
+            "name": "",
+            "location": "",
+            "population": "",
+            "description": "",
+            "points_of_interest": [
+              {
+                "name": "",
+                "description": ""
+              }
+            ]
+          }
+        ],
+        "rural_areas": [
+          {
+            "name": "",
+            "location": "",
+            "population": "",
+            "description": "",
+            "points_of_interest": [
+              {
+                "name": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      "history": {
+        "timeline": [
+          {
+            "date": "",
+            "event": "",
+            "description": ""
+          }
+        ],
+        "major_historical_figures": [
+          {
+            "name": "",
+            "description": "",
+            "achievements": ""
+          }
+        ],
+        "war_and_conflicts": [
+          {
+            "name": "",
+            "date": "",
+            "participants": "",
+            "outcome": "",
+            "impact": ""
+          }
+        ],
+        "important_inventions_discoveries": [
+          {
+            "name": "",
+            "date": "",
+            "description": "",
+            "impact": ""
+          }
+        ]
+      }
+    }
+  ],
+  "history": {
+    "timeline": [
+      {
+        "date": "",
+        "era": "",
+        "events": [
+          {
+            "name": "",
+            "description": "",
+            "location": "",
+            "impact": "",
+            "type": ["war", "political", "cultural", "scientific", "economic"],
+            "subtype": ["", "", ""],
+            "participants": [{"name": "", "side": ""}],
+            "outcome": "",
+            "aftermath": "",
+            "references": [{"name": "", "link": ""}]
+          }
+        ]
+      }
+    ],
+    "important_figures": [
+      {
+        "name": "",
+        "description": "",
+        "birth": "",
+        "death": "",
+        "achievements": [],
+        "era": "",
+        "type": ["warrior", "scientist", "artist", "philosopher", "politician"],
+        "subtype": ["", "", ""],
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "wars_and_battles": [
+      {
+        "name": "",
+        "date_start": "",
+        "date_end": "",
+        "participants": [{"name": "", "side": "", "leader": ""}],
+        "location": "",
+        "outcome": "",
+        "impact": "",
+        "casualties": {"total": "", "by_side": [{"name": "", "number": ""}]},
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "inventions_and_discoveries": [
+      {
+        "name": "",
+        "date": "",
+        "inventor": "",
+        "description": "",
+        "impact": "",
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "economy_and_trade": [
+      {
+        "name": "",
+        "description": "",
+        "era": "",
+        "impact": "",
+        "type": ["agricultural", "industrial", "service"],
+        "subtype": ["", "", ""],
+        "trade": {
+          "partners": [{"name": "", "goods_exported": [], "goods_imported": []}],
+          "trade_routes": [{"name": "", "location": ""}]
+        },
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "cultural_milestones": [
+      {
+        "name": "",
+        "description": "",
+        "era": "",
+        "impact": "",
+        "type": ["art", "architecture", "music", "literature", "theatre", "film"],
+        "subtype": ["", "", ""],
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "political_milestones": [
+      {
+        "name": "",
+        "description": "",
+        "era": "",
+        "impact": "",
+        "type": ["revolutions", "constitutions", "treaties", "laws", "elections"],
+        "subtype": ["", "", ""],
+        "references": [{"name": "", "link": ""}]
+      }
+    ]
+  },
+  "magic": {
+    "type": [],
+    "subtype": [],
+    "history": "",
+    "rules": [],
+    "limitations": [],
+    "source": "",
+    "users": [
+      {
+        "name": "",
+        "type": "",
+        "subtype": "",
+        "description": "",
+        "powers": []
+      }
+    ],
+    "items": [
+      {
+        "name": "",
+        "description": "",
+        "powers": [],
+        "limitations": [],
+        "history": ""
+      }
+    ],
+    "places": [
+      {
+        "name": "",
+        "location": "",
+        "description": "",
+        "powers": [],
+        "limitations": [],
+        "history": ""
+      }
+    ]
+  },
+  "economy": {
+    "name": "",
+    "type": "",
+    "subtype": "",
+    "description": "",
+    "GDP": "",
+    "GDP_per_capita": "",
+    "industries": [
+        {
+          "name": "",
+          "description": "",
+          "type": "",
+          "subtype": "",
+          "employees": "",
+          "revenue": "",
+          "output": "",
+          "interactions": {
+            "suppliers": [
+              {
+                "name": "",
+                "goods_provided": []
+              }
+            ],
+            "customers": [
+              {
+                "name": "",
+                "goods_purchased": []
+              }
+            ],
+            "competitors": [
+              {
+                "name": ""
+              }
+            ],
+            "regulations": [],
+            "taxation": {
+              "industry_specific_taxes": []
+            }
+          },
+          "images": [{"link": ""}],
+          "references": [{"name": "", "link": ""}]
+        }
+      ],
+    "currency": {
+      "name": "",
+      "symbol": "",
+      "code": "",
+      "rate_against_USD": ""
+    },
+    "taxation": {
+      "income_tax": "",
+      "corporation_tax": "",
+      "sales_tax": "",
+      "property_tax": ""
+    },
+    "Labor": {
+      "unemployment_rate": "",
+      "minimum_wage": ""
+    },
+    "Trade": {
+      "exports": [
+        {
+          "name": "",
+          "amount": "",
+          "destination": ""
+        }
+      ],
+      "imports": [
+        {
+          "name": "",
+          "amount": "",
+          "origin": ""
+        }
+      ],
+      "partners": [
+        {
+          "name": "",
+          "goods_exported": [],
+          "goods_imported": []
+        }
+      ],
+      "trade_agreements": []
+    },
+    "Economic_indicators": [
+      {
+        "name": "",
+        "value": ""
+      }
+    ],
+    "references": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ]
+  }
+,
+  "characters": [
+    {
+      "name": "",
+      "description": "",
+      "age": "",
+      "gender": "",
+      "occupation": "",
+      "location": "",
+      "other_details": ""
+    }
+  ],
+  "quests_adventures": [
+    {
+      "name": "",
+      "description": "",
+      "location": "",
+      "objective": "",
+      "rewards": "",
+      "difficulty": ""
+    }
+  ],
+  "creatures": [
+    {
+      "name": "",
+      "type": "",
+      "subtype": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "lifespan": "",
+      "reproduction": "",
+      "intelligence": "",
+      "society": "",
+      "special_abilities": [],
+      "appearance": {
+        "color": "",
+        "body_type": "",
+        "body_covering": "",
+        "features": []
+      },
+      "relationship_with_human": "",
+      "population": "",
+      "threat_level": "",
+      "images": [{"link": ""}],
+      "references": [{"name": "", "link": ""}]
+    }
+  ],
+  "religion": {
+    "name": "",
+    "history": "",
+    "beliefs": [],
+    "deities": [
+      {
+        "name": "",
+        "title": "",
+        "description": "",
+        "domain": [],
+        "symbols": [],
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "holy_texts": [
+      {
+        "name": "",
+        "author": "",
+        "date": "",
+        "language": "",
+        "description": "",
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "practices": [
+      {
+        "name": "",
+        "description": "",
+        "frequency": "",
+        "location": "",
+        "participants": [],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "holidays": [
+      {
+        "name": "",
+        "date": "",
+        "description": "",
+        "activities": [],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "organizations": [
+      {
+        "name": "",
+        "type": "",
+        "description": "",
+        "location": "",
+        "leaders": [],
+        "references": [{"name": "", "link": ""}]
+      }
+    ]
+  },
+
+  "technology": {
+    "timeline": [
+      {
+        "date": "",
+        "era": "",
+        "inventions": [
+          {
+            "name": "",
+            "description": "",
+            "inventor": "",
+            "impact": "",
+            "images": [{"link": ""}],
+            "references": [{"name": "", "link": ""}]
+          }
+        ],
+        "advances": [
+          {
+            "name": "",
+            "description": "",
+            "field": "",
+            "impact": "",
+            "references": [{"name": "", "link": ""}]
+          }
+        ]
+      }
+    ],
+    "transportation": [
+      {
+        "name": "",
+        "type": "",
+        "subtype": "",
+        "description": "",
+        "speed": "",
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "communication": [{
+      "name": "",
+      "type": "",
+      "subtype": "",
+      "description": "",
+      "date_of_invention": "",
+      "images": [{"link": ""}],
+      "references": [{"name": "", "link": ""}]
+    }
+    ],
+    "energy": [
+      {
+        "name": "",
+        "type": "",
+        "subtype": "",
+        "description": "",
+        "date_of_discovery": "",
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "medicine": [
+      {
+        "name": "",
+        "type": "",
+        "subtype": "",
+        "description": "",
+        "date_of_discovery": "",
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ],
+    "weapons": [
+      {
+        "name": "",
+        "type": "",
+        "subtype": "",
+        "description": "",
+        "date_of_invention": "",
+        "images": [{"link": ""}],
+        "references": [{"name": "", "link": ""}]
+      }
+    ]
+  }
+}
+
+
+
+
+
+}
+
