@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -6,6 +7,7 @@ const AboutPage = () => {
     <main>
       <h1>About Me</h1>
       <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+      <Link to="/">Back to Home</Link>
     </main>
   )
 }
