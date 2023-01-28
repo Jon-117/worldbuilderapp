@@ -5,12 +5,11 @@ import { Link } from 'gatsby'
 const ProfilePage = () => {
   return (
     <main>
-      <h1>About the author</h1>
-      <p></p>
-      <Link to="/">Back to Home</Link>
+
+      <Link to="/">Home</Link>
     </main>
   )
 }
-export const Head = () => <title>About Me</title>
+export const Head = () => <title>Profile</title>
 // Step 3: Export your component
 export default ProfilePage
