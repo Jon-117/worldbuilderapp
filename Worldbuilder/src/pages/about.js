@@ -5,8 +5,8 @@ import { Link } from 'gatsby'
 const AboutPage = () => {
   return (
     <main>
-      <h1>About Me</h1>
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+      <h1>About the author</h1>
+      <p></p>
       <Link to="/">Back to Home</Link>
     </main>
   )
