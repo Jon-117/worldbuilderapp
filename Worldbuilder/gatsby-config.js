@@ -44,13 +44,14 @@ module.exports = {
       resolve: "gatsby-plugin-firebase",
       options: {
         credentials: {
-          apiKey: "<YOUR_FIREBASE_API_KEY>",
-          authDomain: "<YOUR_FIREBASE_AUTH_DOMAIN>",
-          databaseURL: "<YOUR_FIREBASE_DATABASE_URL>",
-          projectId: "<YOUR_FIREBASE_PROJECT_ID>",
-          storageBucket: "<YOUR_FIREBASE_STORAGE_BUCKET>",
-          messagingSenderId: "<YOUR_FIREBASE_MESSAGING_SENDER_ID>",
-          appId: "<YOUR_FIREBASE_APP_ID>"
+          apiKey: "AIzaSyBKOhB3le-qPEXLviITYLSUaKsppZnckEM",
+          authDomain: "worldbuilder-29471.firebaseapp.com",
+          databaseURL: "https://worldbuilder-29471-default-rtdb.firebaseio.com",
+          projectId: "worldbuilder-29471",
+          storageBucket: "worldbuilder-29471.appspot.com",
+          messagingSenderId: "131872026507",
+          appId: "1:131872026507:web:b5903d101f4f90f05bc98e",
+          measurementId: "G-8ETMJS1R33"
         }
       },
     },
