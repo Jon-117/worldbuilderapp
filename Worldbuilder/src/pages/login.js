@@ -1,40 +1,68 @@
-import React, { useState } from 'react'
-import { navigate } from 'gatsby'
-import { firebase } from 'gatsby-plugin-firebase'
+import React, { useState, useEffect } from "react";
+import firebase from "firebase/app";
+import "firebase/auth";
 
-const LoginLogout = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
+const LoginPage = () => {
+  const [user, setUser] = useState(null);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = firebase.auth().onAuthStateChanged(user => {
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
 
   const handleLogin = async () => {
-    const provider = new firebase.auth.GoogleAuthProvider()
     try {
-      await firebase.auth().signInWithPopup(provider)
-      setIsLoggedIn(true)
-      navigate('/dashboard')
+      await firebase.auth().signInWithEmailAndPassword(email, password);
     } catch (error) {
-      console.error(error)
+      setError(error);
     }
-  }
+  };
 
   const handleLogout = async () => {
     try {
-      await firebase.auth().signOut()
-      setIsLoggedIn(false)
-      navigate('/')
+      await firebase.auth().signOut();
     } catch (error) {
-      console.error(error)
+      setError(error);
     }
-  }
+  };
 
   return (
     <div>
-      {isLoggedIn ? (
-        <button onClick={handleLogout}>Log Out</button>
+      {user ? (
+        <>
+          <p>Welcome, {user.email}</p>
+          <button onClick={handleLogout}>Logout</button>
+        </>
       ) : (
-        <button onClick={handleLogin}>Log In</button>
+        <>
+          <input
+            type="email"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Password"
+          />
+          <button onClick={handleLogin}>Login</button>
+          {error && <p>{error.message}</p>}
+        </>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default LoginLogout
+export default LoginPage;
