@@ -9,7 +9,7 @@ while True:
     response_raw = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
-        max_tokens=10,
+        max_tokens=2000,
         temperature=0
     )
 
