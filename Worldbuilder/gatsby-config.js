@@ -9,9 +9,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Worldbuilder`,
+    description: `Create a world of your very own or find another person to relate too`,
+    author: `@EricRudzinski, @JonKoch`, 
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Worldbuilder`,
+        short_name: `Worldb`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
@@ -37,6 +37,22 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    'gatsby-firebase',
+    {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        credentials: {
+          apiKey: "AIzaSyBKOhB3le-qPEXLviITYLSUaKsppZnckEM",
+          authDomain: "worldbuilder-29471.firebaseapp.com",
+          databaseURL: "https://worldbuilder-29471-default-rtdb.firebaseio.com",
+          projectId: "worldbuilder-29471",
+          storageBucket: "worldbuilder-29471.appspot.com",
+          messagingSenderId: "131872026507",
+          appId: "1:131872026507:web:b5903d101f4f90f05bc98e",
+          measurementId: "G-8ETMJS1R33"
+        }
       },
     },
   ],
