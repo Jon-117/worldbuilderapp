@@ -86,7 +86,6 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <Navbar />
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
@@ -98,6 +97,7 @@ const IndexPage = () => (
             {i !== samplePageLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
+        <Navbar />
         <br />
         Edit <code>src/pages/index.js</code> to update this page.
       </p>
