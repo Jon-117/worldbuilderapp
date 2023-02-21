@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/planning/
+/.obsidian/
+/testing-IGNORE/
+/testing_IGNORE/
+/Pasted image 20230125191941.png
+/.idea/shelf/Uncommitted_changes_before_Update_at_2_3_2023_7_12_PM__Changes_.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/workspace.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_2_3_2023_7_12_PM_[Changes]/shelved.patch
+/.idea/worldbuilderapp.iml
+/.idea/shelf/Uncommitted_changes_before_Update_at_2_3_2023_7_12_PM_[Changes]/shelved.patch
