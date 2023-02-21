@@ -5,6 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
+import Navbar from "./navbar"
+
 
 
 const links = [
@@ -84,6 +86,7 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
+      <Navbar />
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
