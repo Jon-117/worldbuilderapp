@@ -1,68 +1,43 @@
-import React, { useState, useEffect } from "react";
-import firebase from "firebase/app";
-import "firebase/auth";
+import React, { useState } from "react"
+import { navigate } from "gatsby"
+import firebase from "firebase/app"
+import "firebase/auth"
 
 const LoginPage = () => {
-  const [user, setUser] = useState(null);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState(null);
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [error, setError] = useState(null)
 
-  useEffect(() => {
-    const unsubscribe = firebase.auth().onAuthStateChanged(user => {
-      if (user) {
-        setUser(user);
-      } else {
-        setUser(null);
-      }
-    });
-
-    return () => unsubscribe();
-  }, []);
-
-  const handleLogin = async () => {
+  const handleLogin = async (e) => {
+    e.preventDefault()
     try {
-      await firebase.auth().signInWithEmailAndPassword(email, password);
+      await firebase.auth().signInWithEmailAndPassword(email, password)
+      navigate("/dashboard")
     } catch (error) {
-      setError(error);
+      setError(error.message)
     }
-  };
-
-  const handleLogout = async () => {
-    try {
-      await firebase.auth().signOut();
-    } catch (error) {
-      setError(error);
-    }
-  };
+  }
 
   return (
-    <div>
-      {user ? (
-        <>
-          <p>Welcome, {user.email}</p>
-          <button onClick={handleLogout}>Logout</button>
-        </>
-      ) : (
-        <>
-          <input
-            type="email"
-            value={email}
-            onChange={e => setEmail(e.target.value)}
-            placeholder="Email"
-          />
-          <input
-            type="password"
-            value={password}
-            onChange={e => setPassword(e.target.value)}
-            placeholder="Password"
-          />
-          <button onClick={handleLogin}>Login</button>
-          {error && <p>{error.message}</p>}
-        </>
-      )}
-    </div>
-  );
-};
+    <form onSubmit={handleLogin}>
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        required
+      />
+      <button type="submit">Login</button>
+      {error && <p>{error}</p>}
+    </form>
+  )
+}
 
-export default LoginPage;
+export default LoginPage
