@@ -3,6 +3,21 @@ import { Link } from "gatsby"
 import "./navbar.css"
 
 const Navbar = () => {
+  const samplePageLinks = [
+    {
+      text: "Page 2",
+      url: "page-2",
+      badge: false,
+      description:
+        "A simple example of linking to another page within a Gatsby site",
+    },
+    { text: "TypeScript", url: "using-typescript" },
+    { text: "Server Side Rendering", url: "using-ssr" },
+    { text: "Deferred Static Generation", url: "using-dsg" },
+    { text: "Profile", url: "profile" },
+    { text: "Login", url: "login" },
+  ]
+
   return (
     <nav className="navbar">
       <ul className="navbar-nav">
@@ -21,30 +36,16 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        {samplePageLinks.map((link) => (
+          <li className="nav-item" key={link.url}>
+            <Link to={`/${link.url}`} className="nav-link">
+              {link.text}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   )
 }
-<p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-const pageLinks = [
-    {
-      text: "Page 2",
-      url: "page-2",
-      badge: false,
-      description:
-        "A simple example of linking to another page within a Gatsby site",
-    },
-    { text: "TypeScript", url: "using-typescript" },
-    { text: "Server Side Rendering", url: "using-ssr" },
-    { text: "Deferred Static Generation", url: "using-dsg" },
-    { text: "Profile", url: "profile"},
-    { text: "Login", url: "login"}
-  ]
+
 export default Navbar
