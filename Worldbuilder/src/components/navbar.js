@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import "./navbar.css"
 
 const Navbar = () => {
+  // Array of linked pages
   const samplePageLinks = [
     {
       text: "Page 2",
@@ -19,6 +20,7 @@ const Navbar = () => {
   ]
 
   return (
+    // map array of links to a list
     <nav className="navbar">
       <ul className="navbar-nav">
         {samplePageLinks.map((link) => (

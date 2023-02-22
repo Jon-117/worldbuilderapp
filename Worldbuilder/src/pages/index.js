@@ -7,6 +7,7 @@ import Navbar from "../components/navbar"
 
 
 
+
 const links = [
   {
     text: "Tutorial",
