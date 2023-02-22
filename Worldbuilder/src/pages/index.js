@@ -94,7 +94,6 @@ const IndexPage = () => (
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
-        <Navbar />
       </p>
     </div>
     <ul className={styles.list}>
