@@ -4,6 +4,25 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import Navbar from "../components/navbar"
+import LoginForm from "./login"
+import RegistrationForm from "./login"
+
+const LoginPage = () => {
+  return (
+    <div>
+      <Navbar />
+      <div>
+        <h2>Login</h2>
+        <LoginForm />
+      </div>
+      <div>
+        <h2>Registration</h2>
+        <RegistrationForm />
+      </div>
+    </div>
+  )
+}
+
 
 
 
