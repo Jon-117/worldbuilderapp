@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import Navbar from "../components/navbar"
-import LoginForm from "..components/login"
-import RegistrationForm from "..components/register"
+import LoginForm from "../components/login"
+import RegistrationForm from "../components/register"
 
 const links = [
   {

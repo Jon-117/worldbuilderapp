@@ -16,7 +16,6 @@ const Navbar = () => {
     { text: "Server Side Rendering", url: "using-ssr" },
     { text: "Deferred Static Generation", url: "using-dsg" },
     { text: "Profile", url: "profile" },
-    { text: "Login", url: "login" },
   ]
 
   return (
