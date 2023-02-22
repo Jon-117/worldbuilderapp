@@ -92,8 +92,6 @@ const IndexPage = () => (
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         <Navbar />
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
       </p>
     </div>
     <ul className={styles.list}>
