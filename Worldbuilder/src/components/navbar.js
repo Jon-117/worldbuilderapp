@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import "./navbar.css"
 
 const Navbar = () => {
-  // Array of linked pages
+  // Array of linked page
   const samplePageLinks = [
     {
       text: "Page 2",
